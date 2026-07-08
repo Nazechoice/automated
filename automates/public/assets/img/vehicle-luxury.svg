@@ -1,0 +1,48 @@
+<svg width="800" height="480" viewBox="0 0 800 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08101F"/>
+      <stop offset="1" stop-color="#102A43"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="120" y1="60" x2="680" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00D4FF" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#2D6BFF" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="body" x1="180" y1="180" x2="620" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF1FF"/>
+      <stop offset="0.55" stop-color="#8EA4C8"/>
+      <stop offset="1" stop-color="#4C5D79"/>
+    </linearGradient>
+    <linearGradient id="window" x1="240" y1="140" x2="560" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A8D8FF"/>
+      <stop offset="1" stop-color="#3067B2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="480" rx="32" fill="url(#bg)"/>
+  <ellipse cx="400" cy="240" rx="300" ry="170" fill="url(#glow)"/>
+
+  <path d="M171 282C193 255 214 220 250 204C286 188 341 180 404 180C463 180 513 186 552 203C589 219 613 252 632 281L653 285C671 287 684 301 684 318V336C684 350 673 361 659 361H639C628 321 595 294 549 294C502 294 468 322 457 361H330C319 321 285 294 239 294C192 294 159 321 148 361H138C124 361 113 350 113 336V319C113 303 125 289 141 286L171 282Z" fill="#111B2F" stroke="#1E3556" stroke-width="4"/>
+
+  <path d="M214 282C234 258 252 229 281 217C311 205 357 199 405 199C449 199 490 204 521 216C549 227 570 255 588 281H214Z" fill="url(#window)" opacity="0.9"/>
+  <path d="M246 281C261 260 276 239 297 230C319 221 350 217 384 217V281H246Z" fill="#B7DCFF" opacity="0.85"/>
+  <path d="M388 217C421 217 451 221 473 229C494 238 511 259 525 281H388V217Z" fill="#7CB8FF" opacity="0.8"/>
+
+  <rect x="205" y="282" width="390" height="18" rx="9" fill="#0A1222" opacity="0.85"/>
+  <rect x="174" y="286" width="48" height="10" rx="5" fill="#C8D4E8"/>
+  <rect x="578" y="286" width="48" height="10" rx="5" fill="#C8D4E8"/>
+
+  <circle cx="238" cy="319" r="54" fill="#0A1222" stroke="#C7D3E6" stroke-width="8"/>
+  <circle cx="238" cy="319" r="24" fill="#1A2940" stroke="#00D4FF" stroke-width="4"/>
+  <circle cx="552" cy="319" r="54" fill="#0A1222" stroke="#C7D3E6" stroke-width="8"/>
+  <circle cx="552" cy="319" r="24" fill="#1A2940" stroke="#00D4FF" stroke-width="4"/>
+
+  <path d="M276 196L303 170H363L392 196H276Z" fill="#D7E3F7" opacity="0.9"/>
+  <path d="M412 196L442 170H503L530 196H412Z" fill="#D7E3F7" opacity="0.9"/>
+  <path d="M303 170H442" stroke="#D7E3F7" stroke-width="5" opacity="0.6"/>
+  <path d="M228 287H572" stroke="#00D4FF" stroke-width="2" opacity="0.25"/>
+  <path d="M196 346H604" stroke="#8EA4C8" stroke-width="3" stroke-linecap="round" opacity="0.35"/>
+
+  <text x="400" y="84" fill="#D7E3F7" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle">AUTOMATES</text>
+  <text x="400" y="118" fill="#7EA7D9" font-family="Arial, Helvetica, sans-serif" font-size="18" text-anchor="middle">Luxury Performance Collection</text>
+</svg>

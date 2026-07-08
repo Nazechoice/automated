@@ -1,0 +1,81 @@
+:root{
+  --bg0:#060b18;
+  --bg1:#071225;
+  --card: rgba(255,255,255,0.06);
+  --card2: rgba(255,255,255,0.10);
+  --stroke: rgba(255,255,255,0.14);
+  --text: rgba(255,255,255,0.92);
+  --muted: rgba(255,255,255,0.65);
+  --primary:#2d6bff;
+  --primary2:#35d3ff;
+  --shadow: 0 18px 55px rgba(0,0,0,0.45);
+}
+[data-theme='light']{
+  --bg0:#f7f9ff;
+  --bg1:#ffffff;
+  --card: rgba(0,0,0,0.04);
+  --card2: rgba(0,0,0,0.06);
+  --stroke: rgba(0,0,0,0.10);
+  --text: rgba(0,0,0,0.85);
+  --muted: rgba(0,0,0,0.60);
+  --primary:#1f5eff;
+  --primary2:#00b9ff;
+  --shadow: 0 18px 55px rgba(10,20,60,0.15);
+}
+
+html,body{height:100%;}
+body{
+  background: radial-gradient(1200px 600px at 20% 10%, rgba(45,107,255,0.25), transparent 55%),
+              radial-gradient(800px 500px at 80% 20%, rgba(53,211,255,0.18), transparent 60%),
+              linear-gradient(180deg, var(--bg0), var(--bg1));
+  color: var(--text);
+  overflow-x:hidden;
+}
+
+.app-body{font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;}
+
+.topbar{
+  position: sticky;
+  top:0;
+  z-index: 50;
+  backdrop-filter: blur(14px);
+  background: linear-gradient(180deg, rgba(7,18,37,0.72), rgba(7,18,37,0.35));
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.brand-mark{
+  display:inline-flex; align-items:center; justify-content:center;
+  width:28px;height:28px;border-radius:10px;
+  background: linear-gradient(135deg, rgba(45,107,255,0.95), rgba(53,211,255,0.95));
+  color:#fff; font-weight:800;
+  box-shadow: 0 14px 30px rgba(45,107,255,0.35);
+}
+
+.glass-card{
+  background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.04));
+  border: 1px solid var(--stroke);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(16px);
+}
+
+.btn-ghost{
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  color: var(--text);
+}
+
+.btn-ghost:hover{background: rgba(255,255,255,0.10);}
+
+.footer{border-top:1px solid rgba(255,255,255,0.08);} 
+
+.auth-wrap{min-height: calc(100vh - 30px); display:flex; align-items:center; justify-content:center; padding:18px;}
+.auth-card{width: min(520px, 100%); padding: 22px;}
+.brand-splash{
+  width:54px;height:54px;border-radius:18px;
+  display:flex;align-items:center;justify-content:center;
+  background: linear-gradient(135deg, rgba(45,107,255,0.95), rgba(53,211,255,0.95));
+  box-shadow: 0 16px 40px rgba(45,107,255,0.35);
+  font-weight:900;
+}
+
